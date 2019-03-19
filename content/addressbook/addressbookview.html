@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Directories and Groups &mdash; Roundcube Webmail Help 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Roundcube Webmail Help 1.1 documentation" href="../index.html" />
+    <link rel="up" title="Address Book" href="index.html" />
+    <link rel="next" title="Creating and Editing Contacts" href="editing.html" />
+    <link rel="prev" title="Address Book" href="index.html" /> 
+  </head>
+  <body role="document">
+<div class="banner">
+<div class="bannerwrapper">
+    <h1 class="banner-logo">Roundcube Webmail Help</h1>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="editing.html" title="Creating and Editing Contacts"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Address Book"
+             accesskey="P">previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" accesskey="U">Address Book</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+<div class="clearer"></div>
+</div>
+
+
+    <div class="document">
+<div class="documentinner">
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <blockquote>
+<div></div></blockquote>
+<p>The content area of the address book screen is divided into three areas:
+<a class="reference internal" href="#addressbook-groups"><em>Directories and Groups</em></a>, <a class="reference internal" href="#addressbook-contacts-list"><em>Contacts List</em></a> and the <a class="reference internal" href="#addressbook-contact-details"><em>Contact Details</em></a>.</p>
+<div class="section" id="directories-and-groups">
+<span id="addressbook-groups"></span><span id="index-0"></span><h1>Directories and Groups<a class="headerlink" href="#directories-and-groups" title="Permalink to this headline">¶</a></h1>
+<p>The leftmost pane displays a list of address directories and contact groups within each of the directories.
+Depending on your server configuration and installed plugins you might see multiple directories but there&#8217;s at
+least one directory which contains your personal contacts.</p>
+<p>Contact groups are handy to organize your contacts. They can also be selected when composing an email message and will
+enter all members as a recipient. Groups will also appear in the <a class="reference internal" href="../mail/compose.html#mail-compose-recipeints"><em>auto-completion</em></a> list
+when you start typing in the recipient field. A contact can be assigned to multiple groups.</p>
+<p>Click a directory or a group in the list to show the contained contacts in the list on the right.
+The currently selected directory or group is highlighted in the list.</p>
+<div class="section" id="create-a-contact-group">
+<h2>Create a Contact Group<a class="headerlink" href="#create-a-contact-group" title="Permalink to this headline">¶</a></h2>
+<p>In order to create a new contact group, first select the directory you want the group being created in.
+Then use the + icon on the groups list footer to get you an input field for the group name. Enter a
+unique name for the new group and hit &lt;Enter&gt; to finally create it.</p>
+<p>The creation action can be aborted by pressing the &lt;Esc&gt; key while entering the group name.</p>
+</div>
+<div class="section" id="assigning-contacts-to-groups">
+<span id="index-1"></span><h2>Assigning Contacts to Groups<a class="headerlink" href="#assigning-contacts-to-groups" title="Permalink to this headline">¶</a></h2>
+<p>Contacts can be assigned to groups by dragging &amp; dropping them with the mouse. Select one or multiple contacts in the list
+and drop them onto the desired group. It&#8217;s a simple as that.</p>
+</div>
+<div class="section" id="remove-contacts-from-a-group">
+<h2>Remove Contacts from a Group<a class="headerlink" href="#remove-contacts-from-a-group" title="Permalink to this headline">¶</a></h2>
+<p>List mode:</p>
+<ol class="arabic simple">
+<li>Select the group in the list on the left</li>
+<li>Select one or mutliple contacts to be removed from that group</li>
+<li>Click the <em>Remove selected contacts from group</em> button in the contact list footer</li>
+</ol>
+<p>Single mode:</p>
+<ol class="arabic simple">
+<li>Select a contact in the contacts list</li>
+<li>Switch to the <em>Groups</em> tab in the <a class="reference internal" href="#addressbook-contact-details"><em>Contact Details</em></a> area on the right</li>
+<li>Uncheck the Group(s) you want it to remove from</li>
+</ol>
+</div>
+<div class="section" id="more-actions">
+<h2>More actions<a class="headerlink" href="#more-actions" title="Permalink to this headline">¶</a></h2>
+<p>Also in the footer of the groups list, the gear icon shows a menu with actions related to the selected directory or group.</p>
+<dl class="docutils">
+<dt><strong>Rename Group</strong></dt>
+<dd>Only enabled when a contact group is selected in the list above, this will let you enter a new name for that group.</dd>
+<dt><strong>Delete group</strong></dt>
+<dd>Deletes the group selected in the list above. Note that the contacts assigned to that group will NOT be deleted.</dd>
+<dt><strong>Save search</strong></dt>
+<dd>If you executed an <a class="reference internal" href="searching.html#addressbook-searching"><em>address book search</em></a> before, this option will let you save it as a filter for later use.</dd>
+<dt><strong>Delete search</strong></dt>
+<dd>Only available when a saved search is selected in the list above, this will delete that search filter.</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="contacts-list">
+<span id="addressbook-contacts-list"></span><span id="index-2"></span><h1>Contacts List<a class="headerlink" href="#contacts-list" title="Permalink to this headline">¶</a></h1>
+<p>The contacts of the selected address directory or group are presented in this list with their names. The total number of contacts
+in the particular directory or group is stated right below the list as well as the set that is currently displayed. Use the arrow buttons
+in the list header to navigate through the pages.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">you can change the way and order the contacts are listed here in the <a class="reference internal" href="../settings/preferences.html#settings-prefs-addressbook"><em>Address Book</em></a> section
+of the user preferences.</p>
+</div>
+<div class="section" id="contact-list-actions">
+<span id="index-3"></span><h2>Contact List Actions<a class="headerlink" href="#contact-list-actions" title="Permalink to this headline">¶</a></h2>
+<p>The footer of the contacts list provides buttons that operate on the list or the current selection of contacts relatively:</p>
+<dl class="docutils">
+<dt><strong>Create new contact (+)</strong></dt>
+<dd>Opens the form to <a class="reference internal" href="editing.html#addressbook-contact-edit"><em>add a new contact</em></a> to the selected directory.</dd>
+<dt><strong>Delete selected contacts</strong></dt>
+<dd>Deletes the contacts selected in the list above permanently.</dd>
+<dt><strong>Remove selected contacts from group</strong></dt>
+<dd>Removes the selected contacts from the currently selected group.</dd>
+</dl>
+</div>
+<div class="section" id="send-email-to-selected-contacts">
+<h2>Send Email to Selected Contacts<a class="headerlink" href="#send-email-to-selected-contacts" title="Permalink to this headline">¶</a></h2>
+<p>The address book is not only to manage your contacts but you can also search and select contacts you want to write
+a new email message to. The <em>Compose</em> icon on the toolbar above is activated as soon as you selected at least one contact
+or a contact group. Click it to open the compose screen with the selected contacts filled in as recipients.</p>
+<p>To start writing an email to a single contact, you can also click the email address in the <a class="reference internal" href="#addressbook-contact-details"><em>Contact Details</em></a>
+area on the right.</p>
+</div>
+<div class="section" id="copying-contacts">
+<h2>Copying Contacts<a class="headerlink" href="#copying-contacts" title="Permalink to this headline">¶</a></h2>
+<p>Contacts can be copied from one directory to another in a similar way as assigning them to groups. Simply drag one
+or multiple selected contacts with the mouse and drop them onto the target directory. Please note that some properties
+might be saved into other fields or not be copied at all if the address directories have different schemas.</p>
+</div>
+</div>
+<div class="section" id="contact-details">
+<span id="addressbook-contact-details"></span><span id="index-4"></span><h1>Contact Details<a class="headerlink" href="#contact-details" title="Permalink to this headline">¶</a></h1>
+<p>The full details of a contact are displayed in the rightmost box of the address book screen. Select a single contact
+in the list in order to see the details here. Contact properties are structured with tabs and boxes grouping similar properties
+like phone numbers, postal or email addresses.</p>
+<p>The groups tab allows direct assignment or removal for the contact to/from contacts groups.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Directories and Groups</a><ul>
+<li><a class="reference internal" href="#create-a-contact-group">Create a Contact Group</a></li>
+<li><a class="reference internal" href="#assigning-contacts-to-groups">Assigning Contacts to Groups</a></li>
+<li><a class="reference internal" href="#remove-contacts-from-a-group">Remove Contacts from a Group</a></li>
+<li><a class="reference internal" href="#more-actions">More actions</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#contacts-list">Contacts List</a><ul>
+<li><a class="reference internal" href="#contact-list-actions">Contact List Actions</a></li>
+<li><a class="reference internal" href="#send-email-to-selected-contacts">Send Email to Selected Contacts</a></li>
+<li><a class="reference internal" href="#copying-contacts">Copying Contacts</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#contact-details">Contact Details</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Address Book</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="editing.html"
+                        title="next chapter">Creating and Editing Contacts</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+</div>
+
+      <div class="clearer"></div>
+    </div>
+<div class="footline">
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="editing.html" title="Creating and Editing Contacts"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Address Book"
+             >previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" >Address Book</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, roundcube.net.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b1.
+    </div>
+  </body>
+</html>
