@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Preferences &mdash; Roundcube Webmail Help 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Roundcube Webmail Help 1.1 documentation" href="../index.html" />
+    <link rel="up" title="Settings" href="index.html" />
+    <link rel="next" title="Managing Folders" href="folders.html" />
+    <link rel="prev" title="Settings" href="index.html" /> 
+  </head>
+  <body role="document">
+<div class="banner">
+<div class="bannerwrapper">
+    <h1 class="banner-logo">Roundcube Webmail Help</h1>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="folders.html" title="Managing Folders"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Settings"
+             accesskey="P">previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" accesskey="U">Settings</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+<div class="clearer"></div>
+</div>
+
+
+    <div class="document">
+<div class="documentinner">
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <blockquote>
+<div></div></blockquote>
+<div class="section" id="preferences">
+<span id="settings-prefs"></span><span id="index-0"></span><h1>Preferences<a class="headerlink" href="#preferences" title="Permalink to this headline">¶</a></h1>
+<p>The user preferences let you adjust various options and settings that control the behavior and the UI of the webmail application.
+The numerous settings are grouped by the following sections:</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">After changing preferences, don&#8217;t forget to save them by clicking the <em>Save</em> button below the settings form.</p>
+</div>
+<div class="section" id="user-interface">
+<span id="settings-prefs-ui"></span><h2>User Interface<a class="headerlink" href="#user-interface" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><strong>Language</strong></dt>
+<dd>The webmail is available in numerous languages. Switch it here if you like.
+When accessing the application, the language is automatically chosen from your computer&#8217;s operating system language.</dd>
+<dt><strong>Time zone</strong></dt>
+<dd>Dates displayed anywhere (e.g. when a message is sent) will be automatically translated into your local time zone.
+Set this to <em>Auto</em> to let the system use your computer&#8217;s time zone settings or select a specific time zone from the list.</dd>
+<dt><strong>Time format</strong></dt>
+<dd>Select how time (hours, minutes) are displayed.</dd>
+<dt><strong>Date format</strong></dt>
+<dd>Select the format how dates should be displayed.</dd>
+<dt><strong>Pretty dates</strong></dt>
+<dd>With this option checked, dates close to today will be translated into relative terms like &#8220;Today&#8221;, &#8220;Yesterday&#8221;, etc.</dd>
+<dt><strong>Refresh</strong></dt>
+<dd>Set the interval you want the system to check for updates (e.g. for new messages arrived)</dd>
+<dt><strong>Interface Skin</strong></dt>
+<dd>Choose the visual appearance of the user interface from a selection of themes.</dd>
+<dt><strong>Handle popups as standard windows</strong></dt>
+<dd>When Roundcube opens messages or the compose form in a new window, this can either be a detached
+window with a smaller size and without toolbar buttons or, with this option activated, be a
+regular browser window or even just anther tab in your current window. If enabled, all windows
+opened by the webmail application obey the settings of your browser.</dd>
+<dt><strong>Register protocol handler</strong></dt>
+<dd>You can register this webmail app to be opened when ever you click an email link somewhere on the web.</dd>
+</dl>
+</div>
+<div class="section" id="mailbox-view">
+<span id="settings-prefs-mailbox"></span><h2>Mailbox View<a class="headerlink" href="#mailbox-view" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><strong>Show preview pane</strong></dt>
+<dd>This shows or hides the <a class="reference internal" href="../mail/mailview.html#mail-preview-pane"><em>Preview Pane</em></a> in the mail view.</dd>
+<dt><strong>Mark previewed messages read</strong></dt>
+<dd>Select the delay to mark new messages as &#8220;read&#8221; when opening them in the preview pane.</dd>
+<dt><strong>Request for receipts</strong></dt>
+<dd>This option controls the behavior when you open a message for which the sender requested a read receipt.</dd>
+<dt><strong>Expand message threads</strong></dt>
+<dd>When listing messages in <a class="reference internal" href="../mail/mailview.html#mail-list-thread"><em>threads</em></a>, this option controls how conversation groups are
+expanded in the list.</dd>
+<dt><strong>Rows per page</strong></dt>
+<dd>The messages list displays this number of messages at a time (aka a &#8220;page&#8221;). Increasing this number may result
+in longer loading times when opening a mailbox folder.</dd>
+<dt><strong>Check all folders for new messages</strong></dt>
+<dd>By default, only the Inbox is checked for new messages periodically. If you have server-side filters installed
+that will move incoming messages to other folders, you should check this option.</dd>
+</dl>
+</div>
+<div class="section" id="displaying-messages">
+<span id="settings-prefs-mailview"></span><h2>Displaying Messages<a class="headerlink" href="#displaying-messages" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><strong>Open message in a new window</strong></dt>
+<dd>With this option checked, double-clicking a message in the email view will open it in a new window instead of
+the current browser window/tab.</dd>
+<dt><strong>Display HTML</strong></dt>
+<dd>Check this option to display formatted messages as the sender intended it. When disabled, formatted emails will
+be converted to plain text.</dd>
+<dt><strong>Display remote inline images</strong></dt>
+<dd>Formatted (HTML) messages can contain references to images which have to be loaded from a remote server.
+This can harm your privacy and reveal to the sender that you opened the message. This technique is often used
+by spammers to verify that your email address works and you may receive more spam.</dd>
+<dt><strong>Display attached images below the message</strong></dt>
+<dd>Enable this option if you want image attachments to be displayed below the message text.</dd>
+<dt><strong>After message delete/move display the next message</strong></dt>
+<dd>Controls whether the screen should jump to the next message in the list when opening an email message
+(not in the preview pane) and then move or delete it.</dd>
+</dl>
+<div class="section" id="advanced-options">
+<h3>Advanced options<a class="headerlink" href="#advanced-options" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><strong>Default Character Set</strong></dt>
+<dd>Some email systems do not specify the character set when sending messages. In such rare cases
+the receiver (your webmail application) has to make an assumption how to display the special
+characters (e.g. éäç) and therefore uses this setting. Select the character set/language the
+majority of your email correspondents use.</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="composing-messages">
+<span id="settings-prefs-compose"></span><h2>Composing Messages<a class="headerlink" href="#composing-messages" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><strong>Compose in a new window</strong></dt>
+<dd>With this option checked, the message compose form will open in a new window instead of
+the current browser window/tab.</dd>
+<dt><strong>Compose HTML messages</strong></dt>
+<dd>Check this option to enable the rich text (HTML) editor when composing a new message.
+This is only the default setting for HTML message composing. It can be <a class="reference internal" href="../mail/compose.html#mail-compose-html"><em>toggled</em></a>
+at any time while composing.</dd>
+<dt><strong>Automatically save draft</strong></dt>
+<dd>While you write a new message, a copy will be saved to the Drafts folder ever few minutes.
+Select the interval or disable the automatic saving here.</dd>
+<dt><strong>Always request a return receipt</strong></dt>
+<dd>Activate the &#8220;Return receipt&#8221; <a class="reference internal" href="../mail/compose.html#mail-compose-options"><em>sending option</em></a> by default for new messages.</dd>
+<dt><strong>Always request a delivery status notification</strong></dt>
+<dd>Activate the &#8220;Delivery status notification&#8221; <a class="reference internal" href="../mail/compose.html#mail-compose-options"><em>sending option</em></a> by default for new messages.</dd>
+<dt><strong>Place replies in the folder of the message being replied to</strong></dt>
+<dd>Choose the current folder for saving the reply message to instead of saving it to the &#8220;Sent&#8221; folder.</dd>
+<dt><strong>When replying</strong></dt>
+<dd>This option controls whether and where to place the quoted original text when replying to a message.</dd>
+<dt><strong>Messages forwarding</strong></dt>
+<dd>Controls the <a class="reference internal" href="../mail/compose.html#mail-compose-forward"><em>mode</em></a> how messages are forwarded by default when
+clicking the <em>Forward</em> button without choosing a forward mode.</dd>
+<dt><strong>Default font of HTML message</strong></dt>
+<dd>When writing a formatted (HTML) message, this font face and size is used for the default text formatting.</dd>
+<dt><strong>Default action of the &#8220;Reply all&#8221; button</strong></dt>
+<dd>When replying to messages coming from mailing lists, this setting controls how to reply to them.</dd>
+<dt><strong>Automatically add signature</strong></dt>
+<dd>Select in which cases the signature text from your sender identity is added to a new message.</dd>
+<dt><strong>When replying remove original signature</strong></dt>
+<dd>As the name suggests, this setting removes detected signatures from the original message
+when citing it in the reply.</dd>
+<dt><strong>Spellcheck Options</strong></dt>
+<dd>These checkboxes control the behavior of the spell checker function.</dd>
+</dl>
+<div class="section" id="id1">
+<h3>Advanced options<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><strong>Attachment names</strong></dt>
+<dd>Sometimes receivers of your email messages have difficulties to correctly see the names of attached files.
+Adjust this setting in case you get complaints about garbled attachment names.</dd>
+<dt><strong>Use MIME encoding for 8-bit characters</strong></dt>
+<dd>This enables sending message texts the &#8220;safe&#8221; way but slightly increases the amount of data to be sent.
+Activate this option in case people cannot properly read message you send out.</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="address-book">
+<span id="settings-prefs-addressbook"></span><h2>Address Book<a class="headerlink" href="#address-book" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><strong>Default address book</strong></dt>
+<dd>Select the default address book where new contacts are saved to when adding them from the mail view.</dd>
+<dt><strong>List contacts as</strong></dt>
+<dd>Choose how names are displayed in the contact list.</dd>
+<dt><strong>Sorting column</strong></dt>
+<dd>Select the contact attribute used for sorting the contacts in the list.</dd>
+<dt><strong>Rows per page</strong></dt>
+<dd>The number of contacts displayed at a time (aka a &#8220;page&#8221;) in the contact list.</dd>
+<dt><strong>Skip alternative email addresses in autocompletion</strong></dt>
+<dd>With this option checked, every contact will only appear once in the autocompletion list
+that appears when you start typing in the recipient field. The first email address of the
+selected contact will then be inserted. If disabled, all email addresses of a matching contact
+are displayed for selection.</dd>
+</dl>
+</div>
+<div class="section" id="special-folders">
+<span id="settings-prefs-folders"></span><h2>Special Folders<a class="headerlink" href="#special-folders" title="Permalink to this headline">¶</a></h2>
+<p>Some folders have <a class="reference internal" href="../mail/organization.html#mail-organize-special-folders"><em>special purposes</em></a> and are used by system processes to store messages.
+This form allows you to choose which folders are used to store <em>Drafts</em>, <em>Sent</em> or deleted messages (<em>Trash</em>).</p>
+<dl class="docutils">
+<dt><strong>Show real names for special folders</strong></dt>
+<dd>With this setting enabled, the original names of the assigned special folders are displayed in the
+folder list instead of localized names.</dd>
+</dl>
+<p>When hitting the <em>Archive</em> button in the mail view, the selected messages are moved to this folder.</p>
+<dl class="docutils">
+<dt><strong>Divide archive by</strong></dt>
+<dd><p class="first">This option allows you to organize your archive folder in various ways.
+The selected message(s) can be filed into sub-folders of the archive according
+the sent date, the sender&#8217;s email address or the folder the message is moved from.</p>
+<p class="last">When set to <em>None</em>, all messages will be stored in the Archive folder without any sub-folders
+being created.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="server-settings">
+<span id="settings-prefs-server"></span><h2>Server Settings<a class="headerlink" href="#server-settings" title="Permalink to this headline">¶</a></h2>
+<p>This section provides more advanced settings that control how messages are treated by the email server.</p>
+<dl class="docutils">
+<dt><strong>Mark the message as read on delete</strong></dt>
+<dd>With this option enabled, unread messages are also flagged as read when deleting them right away.</dd>
+<dt><strong>Flag the message for deletion instead of delete</strong></dt>
+<dd>Email messages can be flagged as deleted first before they&#8217;re finally removed from a folder. That also allows to &#8220;undelete&#8221;
+them later on. In order to finally delete them, use the <em>Compact</em> command from the <a class="reference internal" href="../mail/mailview.html#mail-folders"><em>Mailbox folders</em></a> operations menu.</dd>
+<dt><strong>Do not show deleted messages</strong></dt>
+<dd>This option suppresses messages flagged as deleted from being listed.</dd>
+<dt><strong>If moving messages to Trash fails, delete them</strong></dt>
+<dd>Moving to Trash can fail if the Trash folder isn&#8217;t selected or over quota. With this option enabled, messages are
+deleted from the current folder when you attempt to move them to Trash.</dd>
+<dt><strong>Directly delete messages in Junk</strong></dt>
+<dd>Messages in the <em>Junk</em> folder are also move to the <em>Trash</em> first when deleting them.
+Skip that step by enabling this option.</dd>
+<dt><strong>Clear Trash on logout</strong></dt>
+<dd>As the option name says, this will empty the Trash folder when you <a class="reference internal" href="../overview.html#logout"><em>terminate the session</em></a>.</dd>
+<dt><strong>Compact Inbox on logout</strong></dt>
+<dd>This will remove all messages flagged for deletion from the Inbox when you <a class="reference internal" href="../overview.html#logout"><em>log-off</em></a>.</dd>
+</dl>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Preferences</a><ul>
+<li><a class="reference internal" href="#user-interface">User Interface</a></li>
+<li><a class="reference internal" href="#mailbox-view">Mailbox View</a></li>
+<li><a class="reference internal" href="#displaying-messages">Displaying Messages</a><ul>
+<li><a class="reference internal" href="#advanced-options">Advanced options</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#composing-messages">Composing Messages</a><ul>
+<li><a class="reference internal" href="#id1">Advanced options</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#address-book">Address Book</a></li>
+<li><a class="reference internal" href="#special-folders">Special Folders</a></li>
+<li><a class="reference internal" href="#server-settings">Server Settings</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Settings</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="folders.html"
+                        title="next chapter">Managing Folders</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+</div>
+
+      <div class="clearer"></div>
+    </div>
+<div class="footline">
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="folders.html" title="Managing Folders"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Settings"
+             >previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" >Settings</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, roundcube.net.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b1.
+    </div>
+  </body>
+</html>

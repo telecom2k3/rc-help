@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Sender Identities &mdash; Roundcube Webmail Help 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Roundcube Webmail Help 1.1 documentation" href="../index.html" />
+    <link rel="up" title="Settings" href="index.html" />
+    <link rel="next" title="Canned Responses" href="responses.html" />
+    <link rel="prev" title="Managing Folders" href="folders.html" /> 
+  </head>
+  <body role="document">
+<div class="banner">
+<div class="bannerwrapper">
+    <h1 class="banner-logo">Roundcube Webmail Help</h1>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="responses.html" title="Canned Responses"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="folders.html" title="Managing Folders"
+             accesskey="P">previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" accesskey="U">Settings</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+<div class="clearer"></div>
+</div>
+
+
+    <div class="document">
+<div class="documentinner">
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <blockquote>
+<div></div></blockquote>
+<div class="section" id="sender-identities">
+<span id="settings-identities"></span><span id="index-0"></span><h1>Sender Identities<a class="headerlink" href="#sender-identities" title="Permalink to this headline">¶</a></h1>
+<p>The settings here control the name(s) and email address(es) stated as sender when you send out
+email messages. Depending on the server configuration, you can define multiple sender identities
+or only adjust the name and other control fields.</p>
+<div class="section" id="settings">
+<h2>Settings<a class="headerlink" href="#settings" title="Permalink to this headline">¶</a></h2>
+<p>This first block contains general properties for the selected sender identity:</p>
+<dl class="docutils">
+<dt><strong>Display name</strong></dt>
+<dd>The full name displayed in the recipient&#8217;s email program upon receiving your message</dd>
+<dt><strong>Email</strong></dt>
+<dd>The email address stated as sender of email messages you send with this identity.
+Please enter a valid email address that is handled by your Roundcube email account.
+Otherwise message sending might fail because of an invalid sender address.</dd>
+</dl>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The Email field might not be visible or editable. This is no malfunction but
+a restriction set by the server administrator to prevent users from sending email
+with faked sender addresses.</p>
+</div>
+<dl class="docutils">
+<dt><strong>Organization</strong></dt>
+<dd>Some email programs display the organization field when receiving messages from you
+with this filled out.</dd>
+<dt><strong>Reply-to</strong></dt>
+<dd>Enter an email address that differs from the identity&#8217;s email addresshere in order
+to force recipients to send answers to that address instead of the sender email address.</dd>
+<dt><strong>Bcc</strong></dt>
+<dd>Specify an email address here that will receive blind copies of every message you send with
+this identity.</dd>
+<dt><strong>Set default</strong></dt>
+<dd>Check this box to make the current identity the default selection when writing new messages.
+You can still chose another sender identity while composing a message, though.</dd>
+</dl>
+</div>
+<div class="section" id="signature">
+<span id="index-1"></span><h2>Signature<a class="headerlink" href="#signature" title="Permalink to this headline">¶</a></h2>
+<p>Every sender identity can have its own signature text which will be appended to the message text
+when you start writing a new email message. Visit <a class="reference internal" href="preferences.html#settings-prefs-compose"><em>Settings &gt; Preferences &gt; Composing Messages</em></a>
+to configure when and how signatures are inserted.</p>
+<dl class="docutils">
+<dt><strong>Signature</strong></dt>
+<dd>Enter the signature text here.</dd>
+<dt><strong>HTML signature</strong></dt>
+<dd>Check this option if you mainly send formatted (HTML) messages and to enable formatting
+of your signature. The text box above will then show a toolbar to adjust formatting.</dd>
+</dl>
+<div class="section" id="adding-images-to-a-signature">
+<h3>Adding Images to a Signature<a class="headerlink" href="#adding-images-to-a-signature" title="Permalink to this headline">¶</a></h3>
+<p>HTML formatted signatures also allow to embed images which are sent with outgoing messages.
+To add an image to your signature, first check the <em>HTML signature</em> box. Then find
+an image file on your computer and drag &amp; drop it into the signature box. The image can
+be moved around or resized within the editor box using the mouse.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Instead of pulling and image file into the editor, you can also paste an image from your
+clipboard after copying it from another application or browser window.</p>
+<p class="last">Open the image in an image viewer or browser window, then press <em>Ctrl+C</em> to copy it,
+click into the signature text box at the position where you want the image to appear
+and press <em>Ctrl+V</em> to insert it from the clipboard.</p>
+</div>
+</div>
+</div>
+<div class="section" id="managing-multiple-sender-identities">
+<h2>Managing Multiple Sender Identities<a class="headerlink" href="#managing-multiple-sender-identities" title="Permalink to this headline">¶</a></h2>
+<p>Unless restricted by the server administrator, the identity list has control buttons for adding and deleting
+sender identities. If present, click the + icon in the identity list footer to create a new identity.
+Fill out the form and click <em>Save</em> to create it. The new identity is now added to the list and can be edited
+or deleted from there.</p>
+<p>The <em>Delete</em> button also located in the identities list footer will delete the currently selected identity
+after displaying a confirmation dialog.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Sender Identities</a><ul>
+<li><a class="reference internal" href="#settings">Settings</a></li>
+<li><a class="reference internal" href="#signature">Signature</a><ul>
+<li><a class="reference internal" href="#adding-images-to-a-signature">Adding Images to a Signature</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#managing-multiple-sender-identities">Managing Multiple Sender Identities</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="folders.html"
+                        title="previous chapter">Managing Folders</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="responses.html"
+                        title="next chapter">Canned Responses</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+</div>
+
+      <div class="clearer"></div>
+    </div>
+<div class="footline">
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="responses.html" title="Canned Responses"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="folders.html" title="Managing Folders"
+             >previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" >Settings</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, roundcube.net.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b1.
+    </div>
+  </body>
+</html>

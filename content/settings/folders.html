@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Managing Folders &mdash; Roundcube Webmail Help 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Roundcube Webmail Help 1.1 documentation" href="../index.html" />
+    <link rel="up" title="Settings" href="index.html" />
+    <link rel="next" title="Sender Identities" href="identities.html" />
+    <link rel="prev" title="Preferences" href="preferences.html" /> 
+  </head>
+  <body role="document">
+<div class="banner">
+<div class="bannerwrapper">
+    <h1 class="banner-logo">Roundcube Webmail Help</h1>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="identities.html" title="Sender Identities"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="preferences.html" title="Preferences"
+             accesskey="P">previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" accesskey="U">Settings</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+<div class="clearer"></div>
+</div>
+
+
+    <div class="document">
+<div class="documentinner">
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <blockquote>
+<div></div></blockquote>
+<div class="section" id="managing-folders">
+<span id="settings-folders"></span><span id="index-0"></span><h1>Managing Folders<a class="headerlink" href="#managing-folders" title="Permalink to this headline">¶</a></h1>
+<p>This section of the settings task allows you to manage the tree of mailbox folders.</p>
+<p>The hierarchical folder tree is displayed in the middle list widget where you can select a single
+folder by clicking it. Folder information and some settings then appear in the right properties pane.</p>
+<p>There might be folders which are grayed out and which cannot be edited nor deleted or renamed. Such folders are
+&#8220;virtual&#8221; folders which are only there for structuring but which cannot contain any messages.</p>
+<p>Some <a class="reference internal" href="../mail/organization.html#mail-organize"><em>Special System Folders</em></a> cannot be renamed or unsubscribed because they have special purposes
+and are used by system processes.</p>
+<div class="section" id="subscribe-to-folders">
+<span id="settings-folders-subscribe"></span><span id="index-1"></span><h2>Subscribe to Folders<a class="headerlink" href="#subscribe-to-folders" title="Permalink to this headline">¶</a></h2>
+<p>In the folder list, the right column indicates whether a folder is subscribed and by clicking the checkbox,
+the subscription for that folder can be changed.</p>
+<p>Subscribed folders appear in the <a class="reference internal" href="../mail/mailview.html#mail-folders"><em>email view</em></a> whereas unsubscribed ones are hidden and only
+visible here.</p>
+</div>
+<div class="section" id="create-a-new-folder">
+<span id="settings-folders-create"></span><span id="index-2"></span><h2>Create a new Folder<a class="headerlink" href="#create-a-new-folder" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Click the <em>Create new Folder</em> icon (+) in the list footer</li>
+<li>Enter a name for the new folder in the properties form on the right</li>
+<li>Select a parent folder or &#8212; to create the folder on top level</li>
+<li>Click the <em>Save</em> button below the form to finally create it</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The <em>Parent folder</em> field is already pre-selected whith the folder currently selected in the
+folder list on the left.</p>
+</div>
+</div>
+<div class="section" id="manage-the-folder-hierarchy">
+<h2>Manage the Folder Hierarchy<a class="headerlink" href="#manage-the-folder-hierarchy" title="Permalink to this headline">¶</a></h2>
+<p>Folders can be nested to build a hierarchical structure to store your emails.
+Even an existing folder can be made a subfolder of another one or moved to the top level.</p>
+<p>To move a folder simply drag &amp; drop it with the mouse from the list onto the desired parent folder.</p>
+<p>Alternatively the parent folder can be selected in the property form in the right and by hitting <em>Save</em>
+the currently selected folder is moved to its new parent.</p>
+</div>
+<div class="section" id="delete-folders">
+<span id="index-3"></span><h2>Delete Folders<a class="headerlink" href="#delete-folders" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Select a folder in the list</li>
+<li>Open the <em>Folder Actions</em> menu in the list footer and click <em>Delete</em></li>
+<li>Confirm the deletion</li>
+</ol>
+</div>
+<div class="section" id="share-folders">
+<span id="settings-folder-sharing"></span><span id="index-4"></span><h2>Share Folders<a class="headerlink" href="#share-folders" title="Permalink to this headline">¶</a></h2>
+<p>Personal folders can be shared with other users of the email server either for reading only or with fine-grained permissions.
+Select a folder in the list and if you&#8217;re permitted to control sharing for this folder, the sharing section below the folder
+properties on the right shows a list of users the folder is already shared with and their individual access rights.</p>
+<div class="section" id="grant-new-access-rights">
+<h3>Grant new Access Rights<a class="headerlink" href="#grant-new-access-rights" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Click the <em>Add entry</em> button (+) in the sharing list footer</li>
+<li>Enter the username or choose one of the autocompletion entries proposed as you type.
+Instead of a specific user, permissons can be granted for all users or guests.</li>
+<li>Select the access rights you want to grant to the user</li>
+<li>Click <em>Save</em> to add the permission</li>
+</ol>
+<img alt="../_images/acl-add.png" src="../_images/acl-add.png" />
+</div>
+<div class="section" id="edit-access-rights">
+<h3>Edit Access Rights<a class="headerlink" href="#edit-access-rights" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select the permission entry in the list</li>
+<li>Click <em>Edit</em> in the <em>Access rights actions</em> menu in the list footer or just double-click the line</li>
+<li>Adjust the Access rights in the dialog that appears</li>
+<li>Click <em>Save</em> to close the dialog</li>
+</ol>
+</div>
+<div class="section" id="revoke-access-rights">
+<h3>Revoke Access Rights<a class="headerlink" href="#revoke-access-rights" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select the permission entry in the list</li>
+<li>Click <em>Delete</em> in the <em>Access rights actions</em> menu in the list footer</li>
+<li>Confirm the deletion</li>
+</ol>
+</div>
+</div>
+<div class="section" id="search-for-folders">
+<h2>Search for Folders<a class="headerlink" href="#search-for-folders" title="Permalink to this headline">¶</a></h2>
+<p>If the list of folders happens to be very long, a search box can be unfolded from the magnifier glass icon
+in the header of the folder list. The folder tree is reduced to matching folders as you type in the search box.</p>
+<p>Right above the search box, a drop-down menu provides ways to reduce the folder list to common scopes (aka &#8220;namespaces&#8221;)
+like &#8220;Personal&#8221;, &#8220;Shared&#8221; or &#8220;Other users&#8221;. The selection may vary with the capabilities of your email server.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Managing Folders</a><ul>
+<li><a class="reference internal" href="#subscribe-to-folders">Subscribe to Folders</a></li>
+<li><a class="reference internal" href="#create-a-new-folder">Create a new Folder</a></li>
+<li><a class="reference internal" href="#manage-the-folder-hierarchy">Manage the Folder Hierarchy</a></li>
+<li><a class="reference internal" href="#delete-folders">Delete Folders</a></li>
+<li><a class="reference internal" href="#share-folders">Share Folders</a><ul>
+<li><a class="reference internal" href="#grant-new-access-rights">Grant new Access Rights</a></li>
+<li><a class="reference internal" href="#edit-access-rights">Edit Access Rights</a></li>
+<li><a class="reference internal" href="#revoke-access-rights">Revoke Access Rights</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#search-for-folders">Search for Folders</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="preferences.html"
+                        title="previous chapter">Preferences</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="identities.html"
+                        title="next chapter">Sender Identities</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+</div>
+
+      <div class="clearer"></div>
+    </div>
+<div class="footline">
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="identities.html" title="Sender Identities"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="preferences.html" title="Preferences"
+             >previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" >Settings</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, roundcube.net.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b1.
+    </div>
+  </body>
+</html>

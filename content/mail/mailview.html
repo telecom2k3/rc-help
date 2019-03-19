@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Messages List &mdash; Roundcube Webmail Help 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Roundcube Webmail Help 1.1 documentation" href="../index.html" />
+    <link rel="up" title="Email" href="index.html" />
+    <link rel="next" title="Viewing Emails and Attachments" href="reading.html" />
+    <link rel="prev" title="Email" href="index.html" /> 
+  </head>
+  <body role="document">
+<div class="banner">
+<div class="bannerwrapper">
+    <h1 class="banner-logo">Roundcube Webmail Help</h1>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="reading.html" title="Viewing Emails and Attachments"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Email"
+             accesskey="P">previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" accesskey="U">Email</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+<div class="clearer"></div>
+</div>
+
+
+    <div class="document">
+<div class="documentinner">
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <blockquote>
+<div></div></blockquote>
+<p>The content area of the screen shows three areas: <a class="reference internal" href="#mail-folders"><em>Mailbox folders</em></a>, <a class="reference internal" href="#mail-messages-list"><em>Messages List</em></a> and the
+<a class="reference internal" href="#mail-preview-pane"><em>Preview Pane</em></a> which can be toggled.</p>
+<div class="section" id="messages-list">
+<span id="mail-messages-list"></span><span id="index-0"></span><h1>Messages List<a class="headerlink" href="#messages-list" title="Permalink to this headline">¶</a></h1>
+<p>This part of the screen is displaying the list of all messages in the currently selected folder.
+The number of messages displayed in the list and the total number of messages in that folder is stated right below the list.
+According to your settings, this list only displays a limited number of messages at a time. Use the allow buttons below the list
+to browse through the multiple &#8220;pages&#8221;.</p>
+<p>The application periodically checks for new messages and will update the display if new emails arrived. You can force this check manually
+by clicking the <em>Refresh</em> button in the email view toolbar.</p>
+<div class="section" id="open-a-message-for-reading">
+<span id="index-1"></span><h2>Open a Message for Reading<a class="headerlink" href="#open-a-message-for-reading" title="Permalink to this headline">¶</a></h2>
+<p>If the <a class="reference internal" href="#mail-preview-pane"><em>Preview Pane</em></a> is visible, a single click on a message will display it in the preview
+right below the list. In order to open a message in full view or a new window (depending on your settings), double-click it with the mouse.
+Another way to open a message in a new browser tab or window is to right-click on the subject and then choose &#8220;Open Link in New Tab/Window&#8221;
+from the browser&#8217;s context menu.</p>
+<p>Selecting a message in the list will also activate toolbar buttons that offer further actions related to the selected message,
+such as replying, forwarding or deleting it.</p>
+</div>
+<div class="section" id="mark-messages-as-read-or-flagged">
+<span id="index-2"></span><h2>Mark Messages as Read or Flagged<a class="headerlink" href="#mark-messages-as-read-or-flagged" title="Permalink to this headline">¶</a></h2>
+<p>When opening an unread message for reading it&#8217;ll automatically be marked as <em>read</em>. This can also be done directly in the list
+by clicking the unread star in front of the subject. Click it again to mark the message as <em>unread</em>.</p>
+<p>If the flag column is visible (see <a class="reference internal" href="#mail-list-columns"><em>Change message list columns</em></a>) you can flag/unflag a message by clicking on the flag column of
+the message row. Furthermore there&#8217;s the <em>Mark</em> menu in the toolbar that allows you to flag all selected messages with one click.</p>
+</div>
+<div class="section" id="change-messages-list-sorting">
+<span id="index-3"></span><h2>Change messages list sorting<a class="headerlink" href="#change-messages-list-sorting" title="Permalink to this headline">¶</a></h2>
+<p>The sorting order of the messages can be changed by clicking the column in the list header which you&#8217;d like the
+messages being sorted by. Click it once more to reverse the order. The column used for sorting is highlighted in the list header.</p>
+</div>
+<div class="section" id="threaded-message-listing">
+<span id="mail-list-thread"></span><span id="index-4"></span><h2>Threaded message listing<a class="headerlink" href="#threaded-message-listing" title="Permalink to this headline">¶</a></h2>
+<p>Instead of sorting messages by their date or subject, conversations spawning multiple messages can be grouped together as &#8220;Threads&#8221;.
+Use the switch buttons on the left in the message list footer to toggle between <em>List</em> or <em>Threads</em> view. When in thread mode, groups
+of messages can be collapsed or expanded using the arrow icons in the leftmost column of the message list.</p>
+<img alt="../_images/listmode-switch.png" src="../_images/listmode-switch.png" />
+</div>
+<div class="section" id="change-message-list-columns">
+<span id="mail-list-columns"></span><span id="index-5"></span><h2>Change message list columns<a class="headerlink" href="#change-message-list-columns" title="Permalink to this headline">¶</a></h2>
+<p>The columns displayed in the list can be adjusted by clicking the <em>List Options</em> icon in the leftmost column of the message list header.
+This opens a dialog where you can select which columns to display and how to sort messages. Click <em>Save</em> to apply the changes and to
+close the dialog.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The &#8220;From/To&#8221; column is a magic column that displays the sender of the message <em>or</em> the recipient when you switch
+to the Sent or Drafts folder.</p>
+</div>
+<p>The position of the columns in list can also be adjusted by dragging the header of a specific column with the mouse and
+dropping it at where you&#8217;d like it to appear.</p>
+</div>
+<div class="section" id="selecting-multiple-messages">
+<span id="mail-list-select"></span><span id="index-6"></span><h2>Selecting Multiple Messages<a class="headerlink" href="#selecting-multiple-messages" title="Permalink to this headline">¶</a></h2>
+<p>With a single click on a row in the messages list, the according message is selected and highlighted. By pressing either the Shift or Ctrl
+keys on your keyboard while clicking on a message, you can select multiple messages or unselect them.</p>
+<p>There are also selection helpers hidden in the <em>Select</em> drop-down menu located in the message footer. The menu allows you to select all
+unread or flagged messages at once or to invert or reset the current selection.</p>
+</div>
+</div>
+<div class="section" id="mailbox-folders">
+<span id="mail-folders"></span><span id="index-7"></span><h1>Mailbox folders<a class="headerlink" href="#mailbox-folders" title="Permalink to this headline">¶</a></h1>
+<p>On the left side you see a hierarchical list of all folders in your mailbox.
+Folders can be used to file email messages by topic, sender or whatever you choose
+for organization.</p>
+<p>Incoming messages usually appear in the Inbox folder which is the first item in the folder list.
+There are some special folders which are used by the system to store sent (<em>Sent</em>) or deleted (<em>Trash</em>) messages
+and where not-yet-sent message drafts (<em>Drafts</em>) are saved. These system folders are indicated with special icons.</p>
+<p>The number of unread messages in each folder is displayed at the right border of the folder list.</p>
+<p>Click a folder in the list to show the contained messages in the message list on the right. The currently selected folder
+is highlighted in the list.</p>
+<p>Folders with hidden subfolders are indicated with a small [+] icon which can be clocked to expand or collapse the
+folder tree.</p>
+<div class="section" id="folder-operations">
+<span id="index-8"></span><h2>Folder operations<a class="headerlink" href="#folder-operations" title="Permalink to this headline">¶</a></h2>
+<p>In the footer of the folder list, the <em>Folder actions</em> icon shows a list of folder-related actions when clicked.
+Most of the actions in the menu affect the currently selected folder.</p>
+<dl class="docutils">
+<dt><strong>Compact</strong></dt>
+<dd>This action will compress the folder size by finally deleting messages that have been marked for deletion.</dd>
+<dt><strong>Empty</strong></dt>
+<dd>This will delete all messages in the selected folder permanently. Be very careful with this operation as it cannot be
+undone. For security reasons, this action is only available for the Trash and Junk folders.</dd>
+<dt><strong>Manage folders</strong></dt>
+<dd>This menu item will take you the <a class="reference internal" href="../settings/folders.html#settings-folders"><em>settings section</em></a> when you can manage the mailbox folders.
+This is where you can create, delete, rename or re-organize your email folders.</dd>
+</dl>
+</div>
+<div class="section" id="quota-display">
+<span id="index-9"></span><h2>Quota display<a class="headerlink" href="#quota-display" title="Permalink to this headline">¶</a></h2>
+<p>If your mailbox is limited by a maximum size, the quota display located in the footer of the folder list
+indicates the current usage of the available disk space. Move the mouse pointer over the percentage display
+to see the real numbers of your quota usage.</p>
+</div>
+</div>
+<div class="section" id="preview-pane">
+<span id="mail-preview-pane"></span><span id="index-10"></span><h1>Preview Pane<a class="headerlink" href="#preview-pane" title="Permalink to this headline">¶</a></h1>
+<p>If enabled, the preview pane below the message list displays the currently selected message right in the main email view.
+In order to open it, click the toggle icon <img alt="previewtoggle" src="../_images/preview-toggle.png" /> in the message list footer. Clicking the same icon again will hide
+the preview pane.</p>
+<div class="section" id="shortcut-functions">
+<h2>Shortcut Functions<a class="headerlink" href="#shortcut-functions" title="Permalink to this headline">¶</a></h2>
+<p>In the upper right corner of the preview pane are buttons for often used actions like reply or forward the message.</p>
+<p>The rightmost icon <img alt="button-extwin" src="../_images/button-extwin.png" /> will open the message in a new window to have a full-size view on the entire message.</p>
+</div>
+<div class="section" id="expanding-the-message-headers">
+<h2>Expanding the Message Headers<a class="headerlink" href="#expanding-the-message-headers" title="Permalink to this headline">¶</a></h2>
+<div class="image-right container">
+<img alt="../_images/preview-headers.png" src="../_images/preview-headers.png" />
+<p>The preview pane is meant to give you a quick view of the message. Thus only important message fields such as sender
+and date are displayed right away. The header part of the preview can be expanded with click on the down-arrow at the
+left of the header.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Messages List</a><ul>
+<li><a class="reference internal" href="#open-a-message-for-reading">Open a Message for Reading</a></li>
+<li><a class="reference internal" href="#mark-messages-as-read-or-flagged">Mark Messages as Read or Flagged</a></li>
+<li><a class="reference internal" href="#change-messages-list-sorting">Change messages list sorting</a></li>
+<li><a class="reference internal" href="#threaded-message-listing">Threaded message listing</a></li>
+<li><a class="reference internal" href="#change-message-list-columns">Change message list columns</a></li>
+<li><a class="reference internal" href="#selecting-multiple-messages">Selecting Multiple Messages</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#mailbox-folders">Mailbox folders</a><ul>
+<li><a class="reference internal" href="#folder-operations">Folder operations</a></li>
+<li><a class="reference internal" href="#quota-display">Quota display</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#preview-pane">Preview Pane</a><ul>
+<li><a class="reference internal" href="#shortcut-functions">Shortcut Functions</a></li>
+<li><a class="reference internal" href="#expanding-the-message-headers">Expanding the Message Headers</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Email</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="reading.html"
+                        title="next chapter">Viewing Emails and Attachments</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+</div>
+
+      <div class="clearer"></div>
+    </div>
+<div class="footline">
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="reading.html" title="Viewing Emails and Attachments"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Email"
+             >previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" >Email</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, roundcube.net.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b1.
+    </div>
+  </body>
+</html>

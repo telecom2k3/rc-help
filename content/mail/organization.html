@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Organizing your Email Messages &mdash; Roundcube Webmail Help 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Roundcube Webmail Help 1.1 documentation" href="../index.html" />
+    <link rel="up" title="Email" href="index.html" />
+    <link rel="next" title="Import/Export" href="importexport.html" />
+    <link rel="prev" title="Searching Email Messages" href="searching.html" /> 
+  </head>
+  <body role="document">
+<div class="banner">
+<div class="bannerwrapper">
+    <h1 class="banner-logo">Roundcube Webmail Help</h1>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="importexport.html" title="Import/Export"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="searching.html" title="Searching Email Messages"
+             accesskey="P">previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" accesskey="U">Email</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+<div class="clearer"></div>
+</div>
+
+
+    <div class="document">
+<div class="documentinner">
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <blockquote>
+<div></div></blockquote>
+<div class="section" id="organizing-your-email-messages">
+<span id="mail-organize"></span><span id="index-0"></span><h1>Organizing your Email Messages<a class="headerlink" href="#organizing-your-email-messages" title="Permalink to this headline">¶</a></h1>
+<p>The <a class="reference internal" href="mailview.html#mail-folders"><em>folder list</em></a> in the email view lists all folder that can be used to sort emails into
+for temporary or final storage. You manage the folders in the <a class="reference internal" href="../settings/folders.html#settings-folders"><em>settings section</em></a> and
+freely choose the hierarchy of the folder tree.</p>
+<div class="section" id="special-system-folders">
+<span id="mail-organize-special-folders"></span><h2>Special System Folders<a class="headerlink" href="#special-system-folders" title="Permalink to this headline">¶</a></h2>
+<p>Some of the folders have a special meaning and are used by the system to place messages in. These special
+folders are indicated with an individual icon in the list and usually cannot be deleted or renamed.</p>
+<dl class="docutils">
+<dt><strong>Inbox</strong></dt>
+<dd>This is where new messages arrive.</dd>
+<dt><strong>Drafts</strong></dt>
+<dd>When <a class="reference internal" href="compose.html#mail-compose"><em>composing messages</em></a> you can save them temporarily as draft. Such messages
+are stored in this folder an can be picked up for editing here.</dd>
+<dt><strong>Sent</strong></dt>
+<dd>Unless configured otherwise, a copy of each message you compose and send to others will be saved to
+this folder.</dd>
+<dt><strong>Trash</strong></dt>
+<dd>When you delete a message it is moved to this folder and not deleted immediately. Depending on the email
+server&#8217;s settings, trashed messages will automatically be removed from this folder after a certain time.
+You can also empty the trash folder manually with the <em>Empty</em> command from the <a class="reference internal" href="mailview.html#mail-folders"><em>Folder actions menu</em></a>.</dd>
+</dl>
+<p>The assignment of special folders can be changed in <a class="reference internal" href="../settings/preferences.html#settings-prefs-folders"><em>Preferences &gt; Special Folders</em></a>.</p>
+</div>
+<div class="section" id="how-to-move-messages-to-folders">
+<span id="mail-organize-move"></span><span id="index-1"></span><h2>How to Move Messages to Folders<a class="headerlink" href="#how-to-move-messages-to-folders" title="Permalink to this headline">¶</a></h2>
+<p>Filing messages to specific folders is as simple as dragging a message from the list with the mouse and dropping
+it on the folder you want it moved to. That also works with <a class="reference internal" href="mailview.html#mail-list-select"><em>multiple messages selected</em></a>.</p>
+<p>If the target folder is a subfolder and not currently visible, just hold the mouse over the parent folder while dragging
+and it&#8217;ll expand automatically after two seconds. Move the mouse (while dragging) over the folder list footer to let it scroll
+until the target folder moves into sight.</p>
+<div class="section" id="copy-instead-of-moving">
+<h3>Copy instead of moving<a class="headerlink" href="#copy-instead-of-moving" title="Permalink to this headline">¶</a></h3>
+<p>There&#8217;s also the possibility to copy a message into another folder instead of moving it there. Holding down the Shift
+key on the keyboard while dropping one or multiple messages on the destination folder will open a menu where you can
+choose to either <em>Move</em> or <em>Copy</em> them.</p>
+</div>
+<div class="section" id="moving-from-the-message-view-screen">
+<h3>Moving from the Message View Screen<a class="headerlink" href="#moving-from-the-message-view-screen" title="Permalink to this headline">¶</a></h3>
+<p>When reading a message in the full message view screen, you&#8217;ll find a drop-down menu labelled <em>Move to...</em> in
+the toolbar on top. Select a folder from that menu and the message will be moved there. The message view
+screen will then load the next message in the list of the current folder.</p>
+</div>
+</div>
+<span class="target" id="mail-organize-archive"><span id="index-3"></span></span><div class="section" id="using-the-archive-plugin">
+<span id="index-2"></span><h2>Using the Archive Plugin<a class="headerlink" href="#using-the-archive-plugin" title="Permalink to this headline">¶</a></h2>
+<p>If your webmail system has the Archive plugin installed, a button labelled <em>Archive</em> appears in the
+toolbar email task. This button moves the selected message(s) to the archive folder with one single click.</p>
+<p>You can <a class="reference internal" href="../settings/preferences.html#settings-prefs-folders"><em>configure</em></a> how the archive folder is organized and divided into
+subfolders either by date, sender or originating folder.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">In order to activate the archiving functions you first need to select a folder as archive
+in the <a class="reference internal" href="../settings/preferences.html#settings-prefs-folders"><em>Preferences &gt; Special Folders</em></a> settings.</p>
+</div>
+</div>
+<div class="section" id="delete-messages">
+<h2>Delete Messages<a class="headerlink" href="#delete-messages" title="Permalink to this headline">¶</a></h2>
+<p>The selected message(s) can be deleted from the current folder by clicking the <em>Delete</em> icon in the toolbar
+or by hitting the &lt;Del&gt; (or Backspace on Mac) key on your keybaord. This will by default move the message to the
+Trash folder and not delete it right away unless you do this for messages in the Trash folder. In order to
+immediately delete the message in first place, hold down the Shift key on your keyboard while clicking the
+<em>Delete</em> button or when pressing &lt;Del&gt;.</p>
+<p>There&#8217;s a preference in <a class="reference internal" href="../settings/preferences.html#settings-prefs-server"><em>Settings &gt; Preferences &gt; Server Settings</em></a> where
+the default behavior of message deletion can be changed.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Organizing your Email Messages</a><ul>
+<li><a class="reference internal" href="#special-system-folders">Special System Folders</a></li>
+<li><a class="reference internal" href="#how-to-move-messages-to-folders">How to Move Messages to Folders</a><ul>
+<li><a class="reference internal" href="#copy-instead-of-moving">Copy instead of moving</a></li>
+<li><a class="reference internal" href="#moving-from-the-message-view-screen">Moving from the Message View Screen</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#using-the-archive-plugin">Using the Archive Plugin</a></li>
+<li><a class="reference internal" href="#delete-messages">Delete Messages</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="searching.html"
+                        title="previous chapter">Searching Email Messages</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="importexport.html"
+                        title="next chapter">Import/Export</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+</div>
+
+      <div class="clearer"></div>
+    </div>
+<div class="footline">
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="importexport.html" title="Import/Export"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="searching.html" title="Searching Email Messages"
+             >previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" >Email</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, roundcube.net.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b1.
+    </div>
+  </body>
+</html>

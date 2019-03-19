@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Searching Contacts &mdash; Roundcube Webmail Help 1.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Roundcube Webmail Help 1.1 documentation" href="../index.html" />
+    <link rel="up" title="Address Book" href="index.html" />
+    <link rel="next" title="Import/Export" href="importexport.html" />
+    <link rel="prev" title="Creating and Editing Contacts" href="editing.html" /> 
+  </head>
+  <body role="document">
+<div class="banner">
+<div class="bannerwrapper">
+    <h1 class="banner-logo">Roundcube Webmail Help</h1>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="importexport.html" title="Import/Export"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="editing.html" title="Creating and Editing Contacts"
+             accesskey="P">previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" accesskey="U">Address Book</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+<div class="clearer"></div>
+</div>
+
+
+    <div class="document">
+<div class="documentinner">
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <blockquote>
+<div></div></blockquote>
+<div class="section" id="searching-contacts">
+<span id="addressbook-searching"></span><span id="index-0"></span><h1>Searching Contacts<a class="headerlink" href="#searching-contacts" title="Permalink to this headline">¶</a></h1>
+<p>For searching contacts enter name or email address into the search box above the in the toolbar area and
+press &lt;Enter&gt; on your keyboard to start the search. Search results will be displayed in the contact list in the middle.
+The number of contacts mathing your query is displayed in the footer area of the contact list and in case the results
+span multiple pages, use the arrow button in the list header to brwose through them.</p>
+<p>Reset the search by clicking the <em>Reset search</em> icon on the right border of the search box.</p>
+<p>Searching covers all directories and the results are mixed together from all sources.
+Which directory a particular contact belongs to is displayed at the top of the contact properties box, right above
+the contact&#8217;s picture and name.</p>
+<div class="section" id="choose-what-properties-to-search">
+<h2>Choose what properties to search<a class="headerlink" href="#choose-what-properties-to-search" title="Permalink to this headline">¶</a></h2>
+<div class="image-right container">
+<img alt="../_images/search-options.png" src="../_images/search-options.png" />
+<p>Open the search options menu by clicking the search icon on the left side within the search box.
+You can select which properties of a contact should be searched for the entered term.
+Check <em>All fields</em> to search them all.</p>
+</div>
+<span class="target" id="addressbook-advanced-search"></span></div>
+<div class="section" id="advanced-search-form">
+<span id="index-1"></span><h2>Advanced Search Form<a class="headerlink" href="#advanced-search-form" title="Permalink to this headline">¶</a></h2>
+<p>While the simple search box in the toolbar area just searches for the entered words across all
+contact properties, the advanced search function allows a more specifc query on the address book.</p>
+<p>Click the <em>Advanced</em> toolbar button and the search form appears in the contact area on the right.
+Here you can enter search parameters for the individual contact fields. For example you can search
+for all contacts named &#8220;Paul&#8221; (First Name) who are living in &#8220;New York&#8221; (Address).</p>
+<p>Start the search by pressing the <em>Search</em> button below the form. The contact list in the middle
+will show all contacts matching <strong>all</strong> the criterias entered. If none is listed, the
+<a class="reference internal" href="../overview.html#ui-statusbar"><em>Status Display</em></a> will display an according message.</p>
+<span class="target" id="addressbook-saved-search"></span></div>
+<div class="section" id="saved-searches">
+<span id="index-2"></span><h2>Saved Searches<a class="headerlink" href="#saved-searches" title="Permalink to this headline">¶</a></h2>
+<p>When having access to huge address directories, searching is probably the preferred way to navigate
+through them. Beside organizing contacts in groups, you can also create filters aka &#8220;saved searches&#8221;.
+Such a filter remembers the parameters used when searching for contacts and executes that search
+again when recalled.</p>
+<div class="section" id="create-a-saved-search">
+<h3>Create a Saved Search<a class="headerlink" href="#create-a-saved-search" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Search the address book either by using the simple search box or the advanced search function.</li>
+<li>Select <em>Save search</em> from the options menu of the <a class="reference internal" href="addressbookview.html#addressbook-groups"><em>Groups</em></a> list on the left.</li>
+<li>Give that saved search a name and press &lt;Enter&gt; on your keyboard to save it.
+This will add an item to the <a class="reference internal" href="addressbookview.html#addressbook-groups"><em>Groups</em></a> list on the left.</li>
+<li>Click it to execute the search again and to see the results in the contact list.</li>
+</ol>
+</div>
+<div class="section" id="delete-a-saved-search">
+<h3>Delete a Saved Search<a class="headerlink" href="#delete-a-saved-search" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select a saved search query in the leftmost pane.</li>
+<li>Open the options menu in the list footer and then click <em>Delete search</em> to remove it.
+This won&#8217;t delete any contacts but only the saved filter.</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Searching Contacts</a><ul>
+<li><a class="reference internal" href="#choose-what-properties-to-search">Choose what properties to search</a></li>
+<li><a class="reference internal" href="#advanced-search-form">Advanced Search Form</a></li>
+<li><a class="reference internal" href="#saved-searches">Saved Searches</a><ul>
+<li><a class="reference internal" href="#create-a-saved-search">Create a Saved Search</a></li>
+<li><a class="reference internal" href="#delete-a-saved-search">Delete a Saved Search</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="editing.html"
+                        title="previous chapter">Creating and Editing Contacts</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="importexport.html"
+                        title="next chapter">Import/Export</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+</div>
+
+      <div class="clearer"></div>
+    </div>
+<div class="footline">
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="importexport.html" title="Import/Export"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="editing.html" title="Creating and Editing Contacts"
+             >previous</a> |</li>
+<li class="right"><a href="../search.html">search</a>&nbsp;|</li>
+<li class="right"><a href="../index.html">home</a>&nbsp;|</li>
+
+          <li><a href="index.html" >Address Book</a> &raquo;</li> 
+      </ul>
+    </div>
+</div>
+
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, roundcube.net.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b1.
+    </div>
+  </body>
+</html>
