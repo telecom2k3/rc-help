@@ -1,14 +1,16 @@
 {
-    "name": "roundcube/help",
+    "name": "telecom2k3/rc-help",
+    "description": "The Roundcube Help plugin with source documentation",
+    "homepage": "https://github.com/telecom2k3/rc-help",
     "type": "roundcube-plugin",
     "description": "Plugin adds a new item (Help) in taskbar.",
     "license": "GPLv3+",
     "version": "1.4",
     "authors": [
         {
-            "name": "Aleksander Machniak",
-            "email": "alec@alec.pl",
-            "role": "Lead"
+            "name": "Jared Hall",
+            "email": "telecom2k3@gmail.com",
+            "role": "Developer"
         }
     ],
     "repositories": [
